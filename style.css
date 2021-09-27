@@ -1,0 +1,121 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color: #f5e8e9;  
+    font-family: 'Trebuchet MS';
+    font-size: 20px  
+}  
+
+.container{
+  padding: 130px 130px 130px 130px;
+  background-color:#f5e8e9;
+}
+
+
+.main_box{
+   width: 100%;
+   border-radius: 15px;
+   box-shadow: 10px 10px grey;
+
+}
+.leftpart{
+    background-color: #ffffff;
+    width: 50%;
+    height: 510px;
+    float: left;
+    border-radius: 15px 0px 0px 15px;
+    box-shadow: 3px 3px 12px grey;
+    padding-top: 30px;
+
+}
+.rightpart{
+  background-image: linear-gradient(60deg, #ff4929, #fa1487);
+  width: 50%;
+  height: 510px;
+  float: left;
+  border-radius: 0px 15px 15px 0px;
+  box-shadow: 3px 3px 12px grey;
+  padding-top: 30px;
+}
+
+#fb-icon{
+    border: 1px solid grey;
+    border-radius: 50% 50% 50% 50%;
+    padding: 2% 3% 2% 3%;
+    font-size:40px;
+    color: black; 
+}
+#twitter-icon{
+    border: 1px solid grey;
+    border-radius: 50% 50% 50% 50%;
+    padding: 2% 2% 2% 2%;
+    font-size:40px;
+    color: black;  
+}
+#reg-link{
+  color: #000000;
+}
+#login-link{
+  color: #000000;
+}
+#logout-link{
+  color: #000000;
+}
+  
+h2{  
+    text-align: center;  
+    color: #000;  
+    padding: 20px;
+		
+}  
+label{  
+    color: #000000;  
+    font-size: 17px;  
+}  
+#uname{  
+    width: 330px;  
+    height: 35px;  
+    border: none;  
+    border-radius: 5px;  
+    padding-left: 8px;
+    background-color: #f5f5f5;  
+}  
+#pass{  
+    width: 330px;  
+    height: 35px;  
+    border: none;  
+    border-radius: 5px;  
+    padding-left: 8px;
+    background: #f5f5f5;  
+      
+}  
+#log{  
+    width: 150px;  
+    height: 36px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: #ffffff;
+    background: #ff4929; 
+  
+}
+
+.acc_h2{
+  color:#ff4929;
+}
+.acc_body{
+    margin: 0;  
+    padding: 0;  
+    background-color:#ffffff;  
+    font-family: 'Arial';
+}  
+.acc_para{
+    color: #ff4929;
+    font-size: 40px;
+    margin-top: 0px;
+}
+#errors{
+  color: red;
+  font-size: 15px;
+}
