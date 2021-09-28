@@ -22,28 +22,28 @@ if(isset($_POST['log']))
 			
 	}
 	else{
-	$str="select * from users where EMAIL='$uname'";
-	$res=$conn->query($str);
+		$str="select * from users where EMAIL='$uname'";
+		$res=$conn->query($str);
+			
 		
-	
-	if ($res->num_rows > 0){
-		while($res1 = $res->fetch_assoc()){
-			if (password_verify($pass, $res1['PASSWORD'])){
-            	
-            
-            	$_SESSION['uname']=$res1['EMAIL'];
-				header("location:account.php");
-			}
-			else{
-				$msg = "*Sorry login failed check Password*";
-			}
-        }
-    } 
-	
-	else{
-		$msg = "*Sorry login failed check again*";
+		if ($res->num_rows > 0){
+			while($res1 = $res->fetch_assoc()){
+				if (password_verify($pass, $res1['PASSWORD'])){
+	            	
+	            
+	            	$_SESSION['uname']=$res1['EMAIL'];
+					header("location:account.php");
+				}
+				else{
+					$msg = "*Sorry login failed check Password*";
+				}
+	        }
+	    } 
+		
+		else{
+			$msg = "*Sorry login failed check again*";
+		}
 	}
-}
 	
 }
 ?> 
@@ -62,7 +62,7 @@ if(isset($_POST['log']))
 				<div class="leftpart">
 				<center>       
 					<caption><h2>Login</h2></caption><br>
-    
+    					
 						<a href="https://www.facebook.com/"><i class="fa fa-facebook" id="fb-icon"></i></a>&nbsp;
 						<a href="https://twitter.com/LOGIN"><i class="fa fa-twitter" id="twitter-icon"></i></a>
 						<p>or use your account</p>

@@ -34,19 +34,14 @@ if(isset($_POST['log']))
 		
 			if($query)
 			{
-			?>
-			<script>
-			alert("Registration success");
-			window.location="index.php";
-			</script>
-			<?php
+				?><script>alert("Registration success");window.location="index.php";</script><?php
 			}
 		
 			else
 			{   
-			$msg="*Registration failed*";
+				$msg="*Registration failed*";
 			}
-	mysqli_close($conn);
+			mysqli_close($conn);
 		}	
 	}
 }
