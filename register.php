@@ -1,7 +1,6 @@
 <?php
 include("db.php");
-		
-		
+				
 if(isset($_POST['log']))
 {	
 	$mail=$_POST['username'];
@@ -17,7 +16,6 @@ if(isset($_POST['log']))
 	}
 	else if(empty($pass)){
 		$msg="*Please Enter a password*";
-		
 			
 	}
 	else{
