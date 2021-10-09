@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-
+$msg="";
 // commeted by abhishek aravndan
 
 if(isset($_SESSION['uname'])){
