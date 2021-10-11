@@ -18,11 +18,13 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script type="text/javascript" src="script.js"></script>
 </head>
-<body class="acc_body" onload="counter()">
-	<center>
-		<h2 class="acc_h2">Hello <?php echo $email; ?> </h2>
-		<h3>Our Service will be ready in </h3><p class="acc_para" id="countdown"></p>
+<body  onload="counter()">
+	<div class="root-div">
+		<center>
+		<h2>Hello <?php echo $email; ?> </h2>
+		<h4>Our Service will be ready in <span id="countdown"></span></h4>
 		<br><a href="logout.php" id= "logout-link">Logout</a>
-	</center>
+		</center>
+	</div>
 </body>
 </html>

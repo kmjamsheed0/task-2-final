@@ -1,18 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
 body  
 {  
     margin: 0;  
-    padding: 0;  
-    background-color: #f5e8e9;  
-    font-family: 'Trebuchet MS';
-    font-size: 20px  
-}  
-
-.container{
-  padding: 130px 130px 130px 130px;
-  background-color:#f5e8e9;
+    padding: 0;
+    
 }
-
-
+.root-div-home{
+  background-color: #f5e8e9;
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+    padding: 130px;
+    height: 562px;
+}
 .main_box{
    width: 100%;
    border-radius: 15px;
@@ -100,19 +99,29 @@ label{
     background: #ff4929; 
   
 }
-.acc_h2{
-  color:#ff4929;
+.root-div h2{
+  margin-top: 200px;
+  margin-bottom: 0px;
+  color: #ff4929;
+  padding: 0px;
+  font-size: 60px;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: -1px;
 }
-.acc_body{
-    margin: 0;  
-    padding: 0;  
-    background-color:#ffffff;  
-    font-family: 'Arial';
+.root-div{
+    margin: 0px;  
+    text-align: center;  
+    background-color:#fff;  
 }  
-.acc_para{
+.root-div span{
     color: #ff4929;
     font-size: 40px;
-    margin-top: 0px;
+}
+.root-div h4{
+  font-size: 55px;
+  font-weight: 100;
+  font-family: sans-serif;
+  margin-top: 0px
 }
 #errors{
   color: red;
